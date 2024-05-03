@@ -1,0 +1,38 @@
+style.css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  position: relative;
+  width: 900px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: rgb(117, 117, 236);
+}
+.car img{
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+  
+}
+.car{
+  position: absolute;
+  left: 0;
+}
+
+.btn {
+  width: 100px;
+  margin: 0 auto;
+}
+.btn button {
+  width: 100px;
+  height: 50px;
+  background-color: rgb(117, 117, 236);
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
